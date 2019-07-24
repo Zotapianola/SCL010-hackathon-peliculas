@@ -34,17 +34,16 @@ document.getElementById("mindBlowingHTML").onclick = ()=> {fetchMovie(mindBlowin
 
 // crear cartas
 function createDivs(jsn)
-{
-    let newDiv = document.createElement("div");
+{   let newDiv = document.createElement("div");
     newDiv.innerHTML =
-   `<div class="movie-card">
-     <h3>${jsn.Title}</h3>
-      <p>
-      Año: ${jsn.Year}
-
-      Sinopsis: ${jsn.Plot}
-      </p>
-      <img src=${jsn.Poster} alt="movie-card">
-   </div>`;
+      `<div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="${jsn.Poster}" alt="Card image cap">
+      <div class="card-body">
+      <h5 class="card-title">${jsn.Title}</h5>
+      <p class="card-year">Year: ${jsn.Year}</p>
+      <p class="card-plot">Plot: ${jsn.Plot}</p>
+      <a href="#" class="btn btn-primary">Back</a>
+      </div>
+      </div>;`
     moviesSection.appendChild(newDiv);
 }
