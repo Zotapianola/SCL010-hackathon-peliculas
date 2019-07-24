@@ -11,7 +11,7 @@ function fetchMovie (movieArray)
 {
   for (i = 0;i < movieArray.length; i++)
   {
-    let fetchURL = "http://www.omdbapi.com/?t=" + movieArray[i] + "&apikey=35b98c4d";
+    let fetchURL = "https://www.omdbapi.com/?t=" + movieArray[i] + "&apikey=35b98c4d";
     fetch(`${fetchURL}`
     )
     .then(function(response) {
