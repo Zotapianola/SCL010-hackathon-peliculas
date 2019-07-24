@@ -1,18 +1,33 @@
-.filter_HTML{
-    display: inline-flex;
-    content: inherit;
-    border: 1px;
-    background-color: yellow;
-    width: 100%;
-    height:40px;
+body{
+    background-color: black;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 40px;
 }
-.button_HTML
-{
-color:black;
-background-color: yellow;
-border: none;
-position: fixed;
-right: 5px;
-width: 100px;
-height: 40px;
+.button {
+       width: 600px;
+       height: 180px;
+       border: none;
+       display: block;
 }
+
+#familyFriendlyHTML {
+    background-image: url("https://i.ibb.co/wStmDY8/up.jpg");
+ 
+}
+
+#tearJerkersHTML {
+    background-image: url("https://i.ibb.co/2WgL2wJ/the-notebook-tv-series.jpg");
+}
+
+#funnyOrDopeyHTML{
+    background-image: url("https://i.ibb.co/YXWGhHc/funny.jpg");
+}
+
+#oscarWinnersHTML{
+    background-image: url("https://i.ibb.co/Jp1krrG/oscar.jpg");
+}
+#mindBlowingHTML {
+    background-image: url("https://i.ibb.co/L07sDRt/mindblow.jpg");
+}
+
