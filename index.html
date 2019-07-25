@@ -1,36 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="https://i.ibb.co/ZNY9cbd/film.png">
   <title>Filmception</title>
 </head>
+
 <body>
 
-  <div>
-   <button class="button" id="familyFriendlyHTML">Family Friendly</button>
-  <button class="button" id="tearJerkersHTML">Tear Jerkers</button>
-  <button class="button" id="funnyOrDopeyHTML">Funny or Dopey</button>
-  <button class= "button" id="oscarWinnersHTML"> Oscar Winners</button>
-  <button class="button" id="mindBlowingHTML">MindBlowing</button>
+  <nav class="navbar navbar-dark bg-dark">
+    <a id="navText">
+      <img src="https://i.ibb.co/ZNY9cbd/film.png" width="30" height="30" class="d-inline-block align-top">
+      Filmception
+    </a>
+  </nav>
+  <br>
+
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="https://i.ibb.co/wStmDY8/up.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+
+        <img src="https://i.ibb.co/2WgL2wJ/the-notebook-tv-series.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ibb.co/YXWGhHc/funny.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ibb.co/Jp1krrG/oscar.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ibb.co/L07sDRt/mindblow.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
   </div>
 
+<div id="right">
+  <h1 id="text1">¡Comparte tus películas favoritas!</h1>
+  <p id="text2">Crea tu propio track de películas y permite que todo el mundo lo vea. Organiza películas según tu especial gusto. </p>
+<p id="text3">Miles de películas, un sólo lugar.</p>
+</div>
+
+<br>
+
+  ​
+  <!-- botones -->
+  <div id="botones">
+    <button class="button" id="familyFriendlyHTML">Family Friendly</button>
+    
+    <button class="button" id="tearJerkersHTML">Tear Jerkers</button>
+    
+    <button class="button" id="funnyOrDopeyHTML">Funny or Dopey</button>
+  
+    <button class="button" id="oscarWinnersHTML">Oscar Winners</button>
+
+    <button class="button" id="mindBlowingHTML">MindBlow</button>
+  </div>
+  <br>
+  <div id="botoncitos">
+    <button class= "button" id="plus">Crear Track</button>
+    <button class="button" id = "shuffle">Aleatorio</button>
+  </div>
+<div id="movies-section"></div>
 
 
 
 
 
+
+  <script src="main.js"></script>
+
+  </script>
+  <!-- jQuery, Popper.js, Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>
