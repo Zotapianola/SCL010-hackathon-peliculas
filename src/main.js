@@ -23,11 +23,26 @@ function fetchMovie (movieArray)
     )
   }
 }
-document.getElementById("familyFriendlyHTML").onclick = ()=> {fetchMovie(familyFriendly)};
-document.getElementById("tearJerkersHTML").onclick = ()=> {fetchMovie(tearJerkers)};
-document.getElementById("funnyOrDopeyHTML").onclick = ()=> {fetchMovie(funnyOrDopey)};
-document.getElementById("oscarWinnersHTML").onclick = ()=> {fetchMovie(oscarWinners)};
-document.getElementById("mindBlowingHTML").onclick = ()=> {fetchMovie(mindBlowing)};
+document.getElementById("familyFriendlyHTML").onclick = ()=> {
+  moviesSection.innerHTML = "";
+  fetchMovie(familyFriendly);
+};
+document.getElementById("tearJerkersHTML").onclick = ()=> {
+  moviesSection.innerHTML = "";
+  fetchMovie(tearJerkers);
+};
+document.getElementById("funnyOrDopeyHTML").onclick = ()=> {
+    moviesSection.innerHTML = "";
+    fetchMovie(funnyOrDopey);
+  };
+document.getElementById("oscarWinnersHTML").onclick = ()=> {
+    moviesSection.innerHTML = "";
+    fetchMovie(oscarWinners);
+  };
+document.getElementById("mindBlowingHTML").onclick = ()=> {
+    moviesSection.innerHTML = "";
+    fetchMovie(mindBlowing);
+  };
 // crear cartas
 function createDivs(jsn)
 {   let newDiv = document.createElement("div");
