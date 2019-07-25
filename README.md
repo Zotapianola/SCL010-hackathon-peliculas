@@ -20,7 +20,7 @@ En primera instancia desarrollamos una encuesta beta para acercarnos más al usu
 Viendo esto, pensamos que sería de suma ayuda una forma de crear tu propio criterio de ordenamiento de películas, compartible, y además revisar la lista que ya otra persona hizo, como recomendación de par a par y no por páginas oficiales críticas de cine.
 
 
-#Prototipado
+# Prototipado
 ![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/67404572_2441182402769814_583698111499599872_n.jpg?_nc_cat=107&_nc_oc=AQkzKT7a2zxwD2FFGy4IKT6yO4aVVWSPGInkH0GZeRbeVZxqYU69XLhw6OO7A0rf2xo&_nc_ht=scontent.fscl11-2.fna&oh=207207c84f5985b647feae2d7c02a92b&oe=5DE7441A) 
 
 Elaboramos una maqueta en con CSS y HTML para demostrar  a grandes rasgos cómo sería el funcionamiento de nuestra página. Aquí presentamos botones para entrar a tracks ya creados (default), la opción para crear uno nuevo, y reproducir una película de forma aleatoria -respecto al track ya escogido-.
