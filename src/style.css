@@ -1,7 +1,8 @@
 body{
    font-family: 'Montserrat',
    sans-serif;
-    font-size: 40px;
+   font-size: 40px;
+   background-color: rgb(243,229,171,0.2);
 }
 #navText{
     color: white;
@@ -19,16 +20,16 @@ body{
 }
 #right{
     float: right;
-    max-width: 730px;
-    max-height: 400px;
+    max-width: 40%;
+    margin-right: 10px;
 
 }
 #text1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 #text2 {
-    font-size: 25px;
+    font-size: 15px;
 }
 #text3{
     font-size: 25px;
@@ -46,7 +47,6 @@ font-weight: bolder;
 }
 #botones{
     display: inline-flex;
-
 }
 #familyFriendlyHTML {
 
@@ -106,7 +106,23 @@ background-color:#343a40;
 #year {
     font-weight: bolder;
     font-size: 18px;
+    color: rgba(255,255,255, 0.3);
 }
 #plot{
     font-size: 12px;
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.movies-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media only screen and (min-width: 768px) {
+  #botones button{
+      display: inline-flex;
+      width: 80%;
+      font-size: 80%;
+  }
 }
