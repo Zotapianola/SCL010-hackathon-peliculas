@@ -1,4 +1,5 @@
  ![Pelis](https://i.imgur.com/mj53uKp.gif)
+ [Ver página](https://zotapianola.github.io/SCL010-hackathon-peliculas/src/index.html)
 
 # FILMCEPTION 🎥
 
@@ -8,9 +9,9 @@ Filmception es una plataforma digital que le permite al usuario crear sus propio
  ## **Proceso de Diseño 🎨**
 Filmception nace a partir de 2 grandes observaciones respecto a la forma en que el usuario de plataformas de cine las utiliza.
 
-**Las personas tardan una media de 18 minutos en decidir realmente QUÉ van a ver.**
+✔ **Las personas tardan una media de 18 minutos en decidir realmente QUÉ van a ver.**
 
-**El género oficial de las películas no es necesariamente el género que perciben las personas.**
+✔ **El género oficial de las películas no es necesariamente el género que perciben las personas.**
 
 En primera instancia desarrollamos una encuesta beta para acercarnos más al usuario de estas plataformas y conocer mejor como funciona su mente. Consultamos qué tan difícil era elegir qué película ver, y sorprendentemente nos indicaron que era muy complejo decidir según él contexto que estaban -amigos, familia, niños, pareja-, además, no leían las reseñas de páginas oficiales como Rotten Tomatos o IMDB, más sí se guiaban por recomendaciones de pares. En base a esto, construímos la siguiente encuesta, y a la hora de preguntar por los géneros favoritos, dejamos un párrafo abierto, y la gente respondió con pseudo-géneros, como *"cebolleras", "de viajes", "auto ayuda"*. Esto nos dio a entender de que la forma de concebir el "type" de película es sumamente personal, y que no necesariamente el género reflejaría la percepción del usuario.
 
