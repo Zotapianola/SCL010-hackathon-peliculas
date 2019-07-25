@@ -1,95 +1,27 @@
-# "Hackathon" de final de _Common Core_, películas
+ ![Pelis](https://i.imgur.com/mj53uKp.gif)
 
- ## Índice
+# FILMCEPTION 🎥
 
-* [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
-
- ***
-
- ## **Preámbulo**
-
- Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
-
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
-
- ## **Resumen del proyecto**
-
- Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
-
- ## **Consideraciones generales**
-
- * Este proyecto se debe resolver en equipos de hasta 4 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-* Tiempo para completar el reto: 4 días.
+Filmception es una plataforma digital que le permite al usuario crear sus propios tracks de películas y  agruparlas según los diferentes contextos y necesidades, además de compartirlos en listas públicas.   
 
 
- ## **Objetivos de aprendizaje**
+ ## **Proceso de Diseño 🎨**
+Filmception nace a partir de 2 grandes observaciones respecto a la forma en que el usuario de plataformas de cine las utiliza.
 
- * Enfrentarte a un reto de corta duración en el que pongas en práctica todo
-lo aprendido hasta ahora.
-* Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-personas en un equipo de trabajo, mayor complejidad para: tener un entendimiento
-común, seguir el flujo de trabajo, buscar consensos, etc.
+**Las personas tardan una media de 18 minutos en decidir realmente QUÉ van a ver.**
 
- ## **Parte Obligatoria**
+**El género oficial de las películas no es necesariamente el género que perciben las personas.**
 
- * Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-y las inspiraciones utilizadas para definir el producto.
-* Además, deberás detallar en el archivo _readme_, qué hizo cada una en el
-proyecto.
-* El producto deberá presentarse publicado en github pages.
+En primera instancia desarrollamos una encuesta beta para acercarnos más al usuario de estas plataformas y conocer mejor como funciona su mente. Consultamos qué tan difícil era elegir qué película ver, y sorprendentemente nos indicaron que era muy complejo decidir según él contexto que estaban -amigos, familia, niños, pareja-, además, no leían las reseñas de páginas oficiales como Rotten Tomatos o IMDB, más sí se guiaban por recomendaciones de pares. En base a esto, construímos la siguiente encuesta, y a la hora de preguntar por los géneros favoritos, dejamos un párrafo abierto, y la gente respondió con pseudo-géneros, como *"cebolleras", "de viajes", "auto ayuda"*. Esto nos dio a entender de que la forma de concebir el "type" de película es sumamente personal, y que no necesariamente el género reflejaría la percepción del usuario.
 
- ## **Consideraciones técnicas**
+![](https://scontent.fscl11-1.fna.fbcdn.net/v/t1.0-9/67571079_2441158049438916_5755729808453533696_n.jpg?_nc_cat=110&_nc_oc=AQkh-Kd_DY2UQ1hItgQ_WIsFUWDYZA0BdFEoLr8FXPru8F1IbkMKJzuTAskuqTP2aXc&_nc_ht=scontent.fscl11-1.fna&oh=61925aebec3939270c5fd1c326a3c0d9&oe=5DB4F415)
 
- * El diseño visual de los componentes es de libre elección de las estudiantes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
-* Deberán usar al menos un framework de css.
-## **Reglas de las presentaciones:**
 
-* Cada squad tendrá 5 minutos para presentar su demo y 5 minutos para recibir preguntas.
+Viendo esto, pensamos que sería de suma ayuda una forma de crear tu propio criterio de ordenamiento de películas, compartible, y además revisar la lista que ya otra persona hizo, como recomendación de par a par y no por páginas oficiales críticas de cine.
 
-* Las personas que presentan en la primera presentación no deben ser las mismas de la presentación fin
 
-## **Horario**
+#Prototipado
+![](https://scontent.fscl11-2.fna.fbcdn.net/v/t1.0-9/67404572_2441182402769814_583698111499599872_n.jpg?_nc_cat=107&_nc_oc=AQkzKT7a2zxwD2FFGy4IKT6yO4aVVWSPGInkH0GZeRbeVZxqYU69XLhw6OO7A0rf2xo&_nc_ht=scontent.fscl11-2.fna&oh=207207c84f5985b647feae2d7c02a92b&oe=5DE7441A) 
 
-|       |   Lunes           |  Martes                      |Miércoles                      | Jueves                                |
-|------ | ------------------| ---------------------------- | ----------------------------- | ------------------------------------- |
-| 8:00  |  Kick off hackaton|  Daily por squad             |  Daily por squad              | Daily por squad                       |
-| 9:00  |  Sesión de planificación|  Hackeo                |  Hackeo                       | Hackeo/Detalles finales               |         
-| 10:00 |  Hackeo|          |  Compartir link de aplicación|                               | Inscripción de aplicaciones           |
-| 11:00 |                   |  Presentación y Feedback     |                               | Feria de demostraciones               |           
-| 12:00 |                   |                              |                               | Presentación de mejores squads        |
-|>13:00 |                   |                              |                               | Deliberación del jurado               |
-| 20:00 |                   |                              |                               |                                       |
+Elaboramos una maqueta en con CSS y HTML para demostrar  a grandes rasgos cómo sería el funcionamiento de nuestra página. Aquí presentamos botones para entrar a tracks ya creados (default), la opción para crear uno nuevo, y reproducir una película de forma aleatoria -respecto al track ya escogido-.
 
-## **Tips para la organización de trabajo entre UX y Front end**
-
-* Las UX y FE entienden en conjunto el reto en el que van a trabajar, se organizan y arman sus primeros bocetos.
-* Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo y a crear componentes atómicos que luego les sea fácil personalizar con CSS y utilizar para crear interfaces más complejas. Además, las FE empiezan también a trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
-* Las UX comparten el prototipo testeado, para que el equipo empiece a personalizar los componentes y a ponerlos en conjunto.
-* Las UX hacen QA y testing con los releases que vayan haciendo las FE.
-* Planifiquen, historias de usuario y definition of done son importantísimos.
-* Usen las ceremonias ágiles para saber en que van como equipo, dailys y retrospectivas diarias son esenciales.
-* Iteren, iteren, iteren.
-
-## **¿Qué es la Feria de demos?**
-
-La feria de demos se realizará el día de las presentaciones, consiste en la dinámica de “speed dating”, cada squad presentará su demo durante 3 minutos a un grupo de personas, entre ellos los jurados de la Hackathon. Luego de los 3 minutos sonará una chicharra y el grupo de personas rotará al siguiente squad, de esta forma deberán presentar durante una hora. 
-
-* Las demos no deben durar más de 3 minutos y deben mostrar el producto y las tecnologías usadas.
-* Los asistentes van a votar por los 4 equipos finalistas, quienes tendrán la oportunidad de hacer su demo a todo el público para poder elegir un ganador. 
